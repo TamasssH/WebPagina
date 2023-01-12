@@ -2,7 +2,6 @@
     padding:20px 20px;
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
-    border-radius: 15px;;
     overflow-y: hidden;
     font-size:25px;
 }
@@ -10,13 +9,13 @@
 body {
     margin:0;
     background-repeat: repeat;
-    background-image: url("source/3dPatterns.png");
+    background-color:dimgray;
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     background-attachment: fixed;
 }
 
-h1{
+h1 {
     color:darkcyan;
     text-align: center;
 }
@@ -25,23 +24,20 @@ span {
 }
 
 .content-background {
-    margin: auto;
-    background-size: auto;
     background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    margin-top:20px;
-    
+    width: fit-content;
 }
 
 h2 {
     font-size:35px;
-    margin-left: 30px;
+    margin-left: 50px;
+    color:darkcyan;
 }
 h3 {
     font-size:25px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 p {
-    font-size:20px;
-    margin-left: 30px;
+    font-size:15px;
+    margin-left: 50px;
 }
