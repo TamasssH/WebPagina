@@ -26,6 +26,14 @@ span {
 .content-background {
     background: rgba(0, 0, 0, 0.5);
     width: fit-content;
+    display:flex;
+    margin:20px;
+}
+.content-background2 {
+    display:flex;
+    flex-direction:row;
+    margin:20px;
+    margin-top:80px;
 }
 
 h2 {
@@ -40,4 +48,11 @@ h3 {
 p {
     font-size:15px;
     margin-left: 50px;
+}
+
+#test {
+    background: rgba(0, 0, 0, 0.5);
+    width:fit-content;
+    margin:20px;
+    margin-top:80px;
 }
